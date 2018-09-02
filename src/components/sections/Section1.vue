@@ -5,7 +5,13 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="section-highlight">
-                            <h2>Малогабаритные градирни серии МГ</h2>
+                            <h2>Малогабаритные градирни серии "S"</h2>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Серия S</button>
+                            <button class="btn btn-outline-primary">S12</button>
+                            <button class="btn btn-outline-primary">S16</button>
+                            <button class="btn btn-outline-primary">S20</button>
                         </div>
                         <div class="section-details">
                             <ul>
