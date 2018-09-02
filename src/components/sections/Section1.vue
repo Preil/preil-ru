@@ -2,11 +2,10 @@
     <section id="one">
         <div class="container">
             <div class="one-features">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="section-highlight">
-                            <h2>Малогабаритные градирни серии "S"</h2>
-                        </div>
+                <div class="section-highlight">
+                    <h2>Вентиляторные градирни серии "S"</h2>
+                    <br>
+                    <div class="btn-group">
                         <button
                                 v-for="tab in tabs"
                                 v-bind:key="tab.id"
@@ -14,21 +13,14 @@
                                 v-on:click="currentTab = tab.id"
                         >{{ tab.name }}
                         </button>
-
-                        <keep-alive>
-                            <component
-                                    v-bind:is="currentTabComponent"
-                                    class="tab"
-                            ></component>
-                        </keep-alive>
-
-                        <Stype></Stype>
                     </div>
-                    <div class="col-md-4">
-                        <img src="src/assets/images/ct-16-01.png" alt="Responsive image" class="img-responsive">
-                    </div>
-
                 </div>
+                <keep-alive>
+                    <component
+                            v-bind:is="currentTabComponent"
+                            class=""
+                    ></component>
+                </keep-alive>
             </div>
         </div>
     </section>

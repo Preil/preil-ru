@@ -319,16 +319,16 @@ h3 {
 }
 
 .section-highlight {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .section-details {
-	padding-top: 70px;
-	padding-bottom: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .section-details p {
-	padding-bottom: 60px;
+	padding-bottom: 10px;
 }
 
 .four-features .features-content h3 {
@@ -1327,12 +1327,12 @@ textarea#message {
 	}
 
 	.section-details {
-	    padding-top: 35px;
-	    padding-bottom: 30px;
+	    padding-top: 15px;
+	    padding-bottom: 10px;
 	}
 
 	.section-details p {
-	    padding-bottom: 30px;
+	    padding-bottom: 10px;
 	}
 
 	.elements-icons {

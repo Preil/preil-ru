@@ -15,7 +15,6 @@
                             <ul style="font-size: 21px">
                                 <li>Отсутствие коррозии.</li>
                                 <li>Высокая прочность и низкий вес.</li>
-
                             </ul>
                             <a href="#" class="btn btn-learn-more">LEARN MORE <i class="ion-ios-arrow-right"></i></a>
                         </div>
