@@ -328,7 +328,7 @@ h3 {
 }
 
 .section-details p {
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
 
 .four-features .features-content h3 {
@@ -1332,7 +1332,7 @@ textarea#message {
 	}
 
 	.section-details p {
-	    padding-bottom: 10px;
+	    padding-bottom: 0px;
 	}
 
 	.elements-icons {

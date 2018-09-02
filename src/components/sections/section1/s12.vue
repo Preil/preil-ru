@@ -29,7 +29,7 @@
                     </tr>
                     </tbody>
                 </table>
-                <br>
+
                 <p>Габаритные размеры и вес</p>
                 <table class="table table-sm">
                     <thead class="small">
@@ -52,7 +52,7 @@
                     </tr>
                     </tbody>
                 </table>
-                <br>
+
                 <p>Патрубки</p>
                 <table class="table table-sm">
                     <thead class="small">

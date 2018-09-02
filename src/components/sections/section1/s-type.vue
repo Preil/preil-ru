@@ -6,7 +6,7 @@
                 <img class="img-fluid" src="src/assets/images/type-s.png" alt="">
             </div>
             <div class="col-md-6">
-                <h4>Типоразмеры градирен</h4>
+                <p>Типоразмеры градирен</p>
 
                 <table class="table table-striped table-sm">
                     <thead>
