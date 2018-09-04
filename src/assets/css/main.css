@@ -205,6 +205,22 @@ i.ion-ios-arrow-right {
     width: 35px;
 }
 
+i.ion-ios-arrow-left {
+	-moz-transition: background-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	border-radius: 50%;
+	border: solid 1px #9f9f9f;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	width: 35px;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
@@ -255,6 +271,11 @@ p, ul, li {
 }
 
 #three .btn-learn-more i.ion-ios-arrow-right:hover, #one .btn-learn-more i.ion-ios-arrow-right:hover {
+	background-color: #242d44;
+	color: #ffffff;
+}
+
+#three .btn-learn-more i.ion-ios-arrow-left:hover, #one .btn-learn-more i.ion-ios-arrow-left:hover {
 	background-color: #242d44;
 	color: #ffffff;
 }
@@ -944,6 +965,7 @@ button[disabled], html input[disabled] {
 }
 
 section.table {
+
 	margin-top: 85px;
 }
 

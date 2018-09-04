@@ -3,6 +3,7 @@
         <app-header></app-header>
         <app-banner></app-banner>
         <app-sections></app-sections>
+
     </div>
 
 </template>

@@ -50,15 +50,27 @@
                              class="img-responsive ">
                     </div>
                 </div>
+                <div class="row">
+                    <app-gallery></app-gallery>
+                </div>
 
             </div>
         </div>
 
+
+
     </section>
 </template>
 
+
+
 <script>
-    export default {}
+    import Gallery from '../Gallery.vue'
+    export default {
+        components: {
+            appGallery: Gallery,
+        }
+    }
 </script>
 
 <style>
