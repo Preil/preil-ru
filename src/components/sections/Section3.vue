@@ -65,7 +65,7 @@
 
 
 <script>
-    import Gallery from '../Gallery.vue'
+    import Gallery from '../galleries/modal-gallery.vue'
     export default {
         components: {
             appGallery: Gallery,

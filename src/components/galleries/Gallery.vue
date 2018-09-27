@@ -2,31 +2,31 @@
     <section class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-carousel">
-                            <div class="card-img">
-                                <img :src="currentImage" alt="">
-                                <div class="actions">
-                                    <span @click="prevImage" class="btn btn-learn-more">
-                                        <i class="ion-ios-arrow-left"></i>
-                                    </span>
-                                    <span @click="nextImage" class="btn btn-learn-more">
-                                        <i class="ion-ios-arrow-right"></i></span>
-                                </div>
+                <div >
+                    <div >
+                        <div class="card" >
+                            <div >
+                                <img class="card-img-top" :src="currentImage" alt="">
+                                    <a @click="prevImage" class="carousel-control-prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a @click="nextImage" class="carousel-control-next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
                             </div>
-                            <div class="row">
-                                <div
+
+                            <div >
+                                <span
                                         v-for="(image, index) in  images"
                                         :key="image.id"
                                         :class="['thumbnail-image', (activeImage == index) ? 'active' : '']"
                                         @click="activateImage(index)"
                                 >
-                                    <img :src="image.thumb">
-                                </div>
+                                    <img class="img-thumbnail rounded" :src="image.thumb">
+                                </span>
                             </div>
                         </div>
-                        <p>Card description.</p>
+
                     </div>
                 </div>
             </div>

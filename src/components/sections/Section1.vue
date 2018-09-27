@@ -22,6 +22,7 @@
                     ></component>
                 </keep-alive>
             </div>
+            <app--gallery-m-g></app--gallery-m-g>
         </div>
     </section>
 </template>
@@ -31,6 +32,7 @@
     import S12 from './section1/s12.vue'
     import S16 from './section1/s16.vue'
     import S20 from './section1/s20.vue'
+    import GalleryMG from '../galleries/MG-gallery.vue'
 
     export default {
         data: function () {
@@ -48,7 +50,8 @@
             'app-stype': Stype,
             'app-s12': S12,
             'app-s16': S16,
-            'app-s20': S20
+            'app-s20': S20,
+            'app-GalleryMG': GalleryMG
         },
 
         computed: {
