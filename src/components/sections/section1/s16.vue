@@ -4,7 +4,7 @@
         <br>
         <div class="row">
             <div class="col-md-4">
-                <img class="img-fluid rounded" src="src/assets/images/S12-01.jpg" alt="">
+                <img class="img-fluid rounded" src="assets/images/S12-01.jpg" alt="">
             </div>
             <div class="col-md-8">
                 <p>Технические характеристики</p>

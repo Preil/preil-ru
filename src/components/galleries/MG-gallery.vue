@@ -1,5 +1,5 @@
 <template>
-    <section class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div >
@@ -30,7 +30,7 @@
                                 </a>
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <script>

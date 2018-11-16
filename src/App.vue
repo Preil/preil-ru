@@ -5,15 +5,17 @@
         <app-sections></app-sections>
 
 
+
     </div>
 
 </template>
 
 <script>
-
+    import Chart from 'chart.js'
     import Header from './components/Header.vue'
     import Banner from './components/Banner.vue'
     import Sections from './components/Sections.vue'
+
 
 
     export default {

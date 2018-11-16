@@ -3,7 +3,8 @@
         <br>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="src/assets/images/type-s.png" alt="">
+                <img class="img-fluid" src="src/assets/images/Type-MG-01.jpg" alt="">
+
             </div>
             <div class="col-md-6">
                 <p>Типоразмеры градирен</p>
