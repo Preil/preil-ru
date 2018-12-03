@@ -144,9 +144,9 @@
         }
 //        methods: {
 //            changeData: function () {
-//                console.log(this.myChart.data)
-//                myChart.data.datasets[0].data[5] = 120;
-//                myChart.update();
+//                console.log(this.graph.data)
+////                myChart.data.datasets[0].data[5] = 120;
+////                myChart.update();
 //            }
 //        }
     }
