@@ -40,7 +40,9 @@
                         }
                     ]
                 }
-                alert(calc.enthalpy(25, 1013));
+                let results = [3];
+                    results = calc.lg_kavl(1.15, 1.33, 10, 22, 1013);
+                alert(results[0] + '\n'+ results[1] + '\n' + results[2] + '\n' + results[3]);
             },
             getRandomInt () {
                 return Math.floor(Math.random() * (50 - 5 + 1)) + 5
