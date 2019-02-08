@@ -1,12 +1,12 @@
 <template>
     <div class="section-details">
-        <h4>Модель S12</h4>
+        <h4>Модель МГ 12</h4>
         <br>
         <div class="row">
-            <div class="col-md-4">
-                <img class="img-fluid rounded" src="assets/images/S12-01.jpg" alt="">
+            <div class="col-md-5">
+                <img class="img-fluid rounded" src="src/assets/images/MG-12-01.jpg" alt="">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <p>Технические характеристики</p>
                 <table class="table table-sm">
                     <thead class="small">
@@ -21,8 +21,8 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>185-230</td>
-                        <td>40-60</td>
+                        <td>150-350</td>
+                        <td>12-30</td>
                         <td>1,44</td>
                         <td>1,5</td>
                         <td>800</td>
@@ -68,7 +68,7 @@
                     <tr>
                         <td>65</td>
                         <td>100</td>
-                        <td>1300</td>
+                        <td>2300</td>
                      </tr>
                     </tbody>
                 </table>
@@ -76,12 +76,15 @@
             </div>
 
         </div>
+
     </div>
 
 </template>
 
 <script>
-    export default {}
+
+    export default {
+    }
 </script>
 
 <style>

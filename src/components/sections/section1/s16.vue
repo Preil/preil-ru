@@ -1,12 +1,12 @@
 <template>
     <div class="section-details">
-        <h4>Модель S16</h4>
+        <h4>Модель МГ 16</h4>
         <br>
         <div class="row">
-            <div class="col-md-4">
-                <img class="img-fluid rounded" src="assets/images/S12-01.jpg" alt="">
+            <div class="col-md-5">
+                <img class="img-fluid rounded" src="src/assets/images/MG-16-01.jpg" alt="">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <p>Технические характеристики</p>
                 <table class="table table-sm">
                     <thead class="small">
@@ -21,11 +21,11 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>185-230</td>
-                        <td>40-60</td>
-                        <td>1,44</td>
-                        <td>1,5</td>
-                        <td>800</td>
+                        <td>230-600</td>
+                        <td>20-50</td>
+                        <td>2,56</td>
+                        <td>3</td>
+                        <td>1000</td>
                     </tr>
                     </tbody>
                 </table>
@@ -44,11 +44,11 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>2800</td>
-                        <td>1250</td>
-                        <td>1300</td>
-                        <td>200</td>
-                        <td>650</td>
+                        <td>3200</td>
+                        <td>1650</td>
+                        <td>1700</td>
+                        <td>385</td>
+                        <td>1150</td>
                     </tr>
                     </tbody>
                 </table>
@@ -66,9 +66,9 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>65</td>
                         <td>100</td>
-                        <td>1300</td>
+                        <td>125</td>
+                        <td>2400</td>
                     </tr>
                     </tbody>
                 </table>

@@ -79,7 +79,7 @@
                             borderWidth: 1
                         },
                         {
-                            label: "Wet bulb temperature",
+                            label: "Температура по влажному термометру",
                             data: [
                                 {x: 12.00, y: 18},
                                 {x: 14.00, y: 18},

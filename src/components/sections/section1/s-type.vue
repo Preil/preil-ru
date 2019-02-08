@@ -3,7 +3,7 @@
         <br>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="src/assets/images/Type-MG-01.jpg" alt="">
+                <img class="img-fluid" src="src/assets/images/Type-MG.jpg" alt="">
 
             </div>
             <div class="col-md-6">
@@ -13,23 +13,23 @@
                     <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col">S12</th>
-                        <th scope="col">S16</th>
-                        <th scope="col">S20</th>
+                        <th scope="col">МГ 12</th>
+                        <th scope="col">МГ 16</th>
+                        <th scope="col">МГ 20</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>Тепловая нагрузка, кВт</td>
-                        <td>375</td>
-                        <td>700</td>
-                        <td>1050</td>
+                        <td>150-350</td>
+                        <td>230-600</td>
+                        <td>350-950</td>
                     </tr>
                     <tr>
                         <td>Расход воды, м3/час</td>
-                        <td>20-30</td>
-                        <td>40-60</td>
-                        <td>70-90</td>
+                        <td>12-30</td>
+                        <td>20-50</td>
+                        <td>30-80</td>
                     </tr>
                     <tr>
                         <td>Мощность двигателя, кВт</td>

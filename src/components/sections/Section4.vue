@@ -32,7 +32,7 @@
                     labels: ["12", "14", "16", "18", "20", "22", "24", "26", "28", "30"],
                     datasets: [
                         {
-                            label: 'Cooling capability, kW',
+                            label: 'Охлаждающая способность, кВт',
                             yAxisID: 'B',
                             data: [144, 165, 185, 206, 226, 247, 268, 288, 309, 329, 350],
 
@@ -68,7 +68,7 @@
                             borderWidth: 1
                         },
                         {
-                            label: 'Wet bulb temperature',
+                            label: 'Температура вл.термометра',
                             data: [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
                             type: 'line',
                             backgroundColor: [
@@ -80,7 +80,7 @@
                             borderWidth: 1
                         },
                         {
-                            label: 'Hot water temperature',
+                            label: 'Температура нагретой воды',
                             data: [32.5, 33.3, 34.1, 34.9, 35.6, 36.4, 37.1, 37.8, 38.4, 39.1, 39.7],
                             type: 'line',
                             backgroundColor: [
@@ -92,7 +92,7 @@
                             borderWidth: 1
                         },
                         {
-                            label: 'Cooled water temperature',
+                            label: 'Температура охлажденной воды',
                             data: [22.5, 23.3, 24.1, 24.9, 25.6, 26.4, 27.1, 27.8, 28.4, 29.1, 29.7],
                             type: 'line',
                             backgroundColor: [
@@ -114,7 +114,7 @@
                         yAxes: [{
                             scaleLabel: {
                                 display: true,
-                                labelString: 'Temperature, ºC'
+                                labelString: 'Температура, ºC'
                             },
                             ticks: {
                                 beginAtZero: false
@@ -132,7 +132,7 @@
                         xAxes: [{
                             scaleLabel: {
                                 display: true,
-                                labelString: 'Water flow, m³/h'
+                                labelString: 'Расход воды, м³/ч'
                             },
                             ticks: {
                                 beginAtZero: false
@@ -142,13 +142,6 @@
                 }
             });
         }
-//        methods: {
-//            changeData: function () {
-//                console.log(this.graph.data)
-////                myChart.data.datasets[0].data[5] = 120;
-////                myChart.update();
-//            }
-//        }
     }
 </script>
 

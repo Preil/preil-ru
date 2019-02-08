@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div >
                     <div>
                         <div class="card">
@@ -19,15 +19,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                                <a
+            <div class="col-md-6 col-sm-12">
+                                <span
                                         v-for="(image, index) in  images"
                                         :key="image.id"
                                         :class="['thumbnail-image', (activeImage == index) ? 'active' : '']"
                                         @click="activateImage(index)"
                                 >
                                     <img class="img-thumbnail rounded" :src="image.thumb">
-                                </a>
+                                </span>
             </div>
         </div>
     </div>

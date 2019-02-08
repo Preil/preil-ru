@@ -4,8 +4,11 @@
             <div class="two-features">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="assets/images/MG-16_01.jpg" alt="Responsive image" class="img-responsive img-fluid">
+                        <!--TODO: Correct image-->
+                        <img src="src/assets/images/MG-16_01.jpg" alt="Responsive image" class="img-responsive img-fluid">
                     </div>
+
+                    <!--TODO: Find image water distribution system.-->
 
                     <div class="col-md-8">
                         <div class="section-highlight">
@@ -13,10 +16,10 @@
                         </div>
                         <div class="section-details">
                             <ul style="font-size: 21px">
+                                <li>Высокая прочность и малый вес.</li>
                                 <li>Отсутствие коррозии.</li>
-                                <li>Высокая прочность и низкий вес.</li>
                             </ul>
-                            <a href="#" class="btn btn-learn-more">LEARN MORE <i class="ion-ios-arrow-right"></i></a>
+                            <!--<a href="#" class="btn btn-learn-more">LEARN MORE <i class="ion-ios-arrow-right"></i></a>-->
                         </div>
                     </div>
                 </div>
